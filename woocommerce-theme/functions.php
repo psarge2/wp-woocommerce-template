@@ -52,19 +52,27 @@ function woocommercetheme_register_scripts(){
 }
 
 //MENUS
-function woocommercetheme_menus(){
+// function woocommercetheme_menus(){
 
-  $locations = array(
-    'primary' => "Top Menu",
-    'footer' => "Footer Menu Items"
-  );
+//   $locations = array(
+//     'primary' => "Top Menu",
+//     'footer' => "Footer Menu Items"
+//   );
 
-  register_nav_menus($locations);
-}
+//   register_nav_menus($locations);
+// }
 
-add_action('init', 'woocommercetheme_menus');
+// add_action('init', 'woocommercetheme_menus');
 
 //Add Support
+add_theme_support('menus');
+
+register_nav_menus(
+  array(
+    'top-menu' => 'Top Menu'
+  )
+);
+
 add_theme_support('post-thumbnails');
 
 //Add image sizes
