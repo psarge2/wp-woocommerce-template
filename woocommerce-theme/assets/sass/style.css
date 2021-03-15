@@ -1,0 +1,122 @@
+header {
+  background: light;
+  padding: 1rem 0;
+  -webkit-box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.25);
+}
+
+header .logo {
+  width: 150px;
+}
+
+header .top-menu {
+  display: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media screen and (min-width: 992px) {
+  header .top-menu {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+}
+
+header .top-menu li {
+  list-style-type: none;
+}
+
+header .top-menu li a {
+  display: block;
+  padding: 0.25rem 1rem;
+  color: #202020;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+#hero {
+  height: 300px;
+  width: 100%;
+  background: url("../images/fashion1.png") #f0f0f0;
+  background-size: cover;
+}
+
+@media screen and (min-width: 768px) {
+  #hero {
+    height: 450px;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #hero {
+    height: 550px;
+    background-size: 50%;
+  }
+}
+
+#hero h1 {
+  color: #fff;
+}
+
+footer {
+  height: 300px;
+  width: 100%;
+  background: #f0f0f0;
+}
+
+.woocommerce .woocommerce-input-wrapper {
+  width: 100%;
+  display: block;
+}
+
+.woocommerce form .form-row input.input-text,
+.woocommerce form .form-row textarea {
+  padding: 0.25rem;
+  height: 30px;
+  border: 1px solid #999 !important;
+  background: #f0f0f0;
+  border: 0;
+}
+
+.main-container {
+  padding: 2rem 0;
+}
+
+.content {
+  padding: 3rem 0;
+}
+
+.widget {
+  list-style-type: none;
+  margin: 0;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 0.5rem;
+  padding: 1.5rem;
+}
+
+.widget ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.blog-post {
+  margin-bottom: 2rem;
+  -webkit-box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+          box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.15);
+  border-radius: 0.5rem;
+  padding: 1rem;
+}
+
+.pagination {
+  display: block;
+  padding: 0.25rem 2rem;
+  color: dark;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+/*# sourceMappingURL=style.css.map */
